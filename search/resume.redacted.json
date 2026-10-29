@@ -1,0 +1,101 @@
+{
+  "_redaction_note": "Public GitHub submission copy. Institution/employer/project names, contact details, and implementation-level technical specifics are anonymized or generalized to avoid exposing identifiable technique details and personal contact info on a public, permanently-forked repo. The full-detail attested record (search/resume.json) stays local and gitignored.",
+  "attested": true,
+  "attested_date": "2026-10-28",
+  "attestation_note": "Three corrections after review: (1) dropped an unverifiable TA-experience mention — no dates/employer given, so it couldn't be attested; (2) restored a dropped implementation detail in a retry/reliability mechanism that the agent's first-pass extraction had silently omitted; (3) restored a dropped scope-limiting detail in a code-search feature, also omitted by the agent. Two reported metrics (a retrieval hit-rate improvement and a classifier accuracy improvement) were specifically challenged and confirmed personally defensible in an interview before being kept.",
+  "personal": {
+    "name": "Ziming Liang",
+    "location": "Boston, MA",
+    "github": "https://github.com/Ziming-Liang",
+    "current_status": "current graduate student",
+    "target_role_line_on_resume": "Backend / AI Development Engineer"
+  },
+  "education": [
+    {
+      "institution": "U.S. graduate institution, Boston MA",
+      "degree": "MS, Software Engineering",
+      "gpa": "3.83",
+      "start_date": "2025-09",
+      "end_date": "2027-06",
+      "status": "in_progress"
+    },
+    {
+      "institution": "Chinese undergraduate institution, Beijing",
+      "degree": "BEng, Data Science and Big Data Technology",
+      "honors": ["departmental scholarship", "outstanding student cadre"],
+      "start_date": "2021-09",
+      "end_date": "2025-06",
+      "status": "completed"
+    }
+  ],
+  "experience": [
+    {
+      "company": "China-based government-affiliated safety-science research institute — big data center",
+      "location": "Beijing, China",
+      "title": "AI Development Intern",
+      "start_date": "2025-06",
+      "end_date": "2025-09",
+      "bullets": [
+        "Built a production RAG-based enterprise knowledge-base platform with multi-tier storage (metadata/object/vector separated) and a fine-grained, tag-based access-control model.",
+        "Built a hybrid keyword + vector retrieval engine with automatic fallback and reliability safeguards, improving retrieval hit rate over a pure-keyword baseline by roughly 25% (self-measured, discussed in attestation).",
+        "Designed a multi-level RBAC permission model and a streaming conversational interface over the retrieved results."
+      ],
+      "attestation_correction": ""
+    },
+    {
+      "company": "US-based (NYC) AI/ML startup",
+      "location": "New York, USA",
+      "title": "AI Development Intern",
+      "start_date": "2024-12",
+      "end_date": "2025-02",
+      "bullets": [
+        "Built an NLP preprocessing pipeline (tokenization, vocabulary indexing, batch encoding) for a text-classification task.",
+        "Compared several neural architectures including a from-scratch Transformer-encoder implementation; improved test-set classification accuracy from 87% to 95% through iterative tuning (self-measured, discussed in attestation).",
+        "Built a content-recommendation module (similarity-based) and a two-tower personalized-recommendation model on a public news-recommendation dataset."
+      ],
+      "attestation_correction": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project A — terminal-based AI coding assistant (personal project)",
+      "stack": ["Java", "Multi-Agent systems", "MCP", "local vector + keyword search"],
+      "team_size": "solo (unverified by any external record)",
+      "bullets": [
+        "Terminal AI agent CLI with multi-agent collaboration, tool-use integration, a multi-tier memory system, and codebase retrieval; addresses context-window and task-state limitations across multi-turn execution.",
+        "Dual-mode task execution (direct iteration for simple tasks; planned, dependency-aware decomposition with parallel execution for complex tasks).",
+        "Multi-role agent collaboration with independent result review and bounded automatic retry on failure.",
+        "Tiered memory system with automatic compression strategies and context-budget adaptation across different model context-window sizes.",
+        "Hybrid code-search combining structural (AST-based) chunking with keyword and vector retrieval.",
+        "Browser-automation fallback path for fetching content that plain HTTP retrieval can't reach."
+      ]
+    },
+    {
+      "name": "Project B — AI workflow orchestration platform (personal project)",
+      "stack": ["Java", "Spring Boot", "workflow-graph libraries", "SSE"],
+      "team_size": "solo (unverified by any external record)",
+      "bullets": [
+        "Self-built AI agent workflow orchestration platform with visual editing of model/tool/logic nodes and multi-model streaming output.",
+        "Graph-based workflow engine with automatic execution-order resolution and cycle-validation before a run starts.",
+        "Unified abstraction layer over several different LLM-provider APIs behind one interface.",
+        "Real-time workflow status streaming to clients.",
+        "A long-text audio-processing pipeline (chunking, multi-segment merge, persistence) for a TTS use case."
+      ]
+    }
+  ],
+  "skills": {
+    "proficient": ["Claude Code (production-level AI-assisted development)"],
+    "familiar": [
+      "Java (concurrency internals, JVM memory/GC, collections internals)",
+      "Concurrency (locking, threading, thread-local state, tuning)",
+      "MySQL (transactions, indexing, locking, MVCC, logging)",
+      "Redis (data structures, persistence, eviction, distributed locks)",
+      "Spring (IOC/AOP, autoconfiguration)"
+    ],
+    "aware": ["RAG pipeline end-to-end (parsing, chunking, vectorization, hybrid retrieval, context assembly, tuning)"],
+    "hands_on_experience_claimed": ["Multi-agent collaboration", "Memory management", "Agent / tool-use mechanisms"]
+  },
+  "summary_notes_on_resume": [
+    "Resume states 'fluent English for work communication' and 'global perspective' as self-assessed soft-skill claims, not verifiable credentials."
+  ]
+}

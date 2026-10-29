@@ -1,0 +1,57 @@
+# Public GitHub submission copy — contact email removed; project names
+# referenced in target_role.description genericized to Project A / Project B
+# to match search/resume.redacted.json. Full-detail version stays local in
+# search/profile.yml (gitignored).
+#
+# Attested 2026-10-28. Visa/timeline fields confirmed directly by the student
+# (graduation month, DSO STEM confirmation). Target role / geography /
+# industry fields were agent-proposed drafts that the student reviewed and
+# accepted as-is without adding further specifics — noted here so the
+# provenance stays honest rather than reading as independently researched.
+candidate:
+  name: Ziming Liang
+  github: https://github.com/Ziming-Liang
+  location: Boston, MA
+
+target_role:
+  primary: "Backend Software Engineer or AI/ML Engineer (LLM-application / agent-infrastructure track)"
+  secondary: "AI Platform Engineer, Applied AI Engineer"
+  description: >
+    Backend or AI-infrastructure engineering roles building LLM-application
+    systems (RAG, agent orchestration, retrieval) at product companies —
+    agent-proposed from the two self-built projects in resume.json (Project A,
+    Project B) and both internships being "AI Development Intern"; student
+    confirmed as-is.
+  excluded: none specified
+
+visa:
+  type: F-1
+  stem_opt_intended: true
+  graduation_date: "2027-06"
+  opt_status: "pre-OPT — not yet started as of 2026-10-28"
+  ead_start_date: null
+  opt_end_date: null
+  unemployment_days_used: 0
+  unemployment_ceiling_initial_opt: 90
+  unemployment_ceiling_with_stem_extension: 150
+  buffer_target: 80
+  stem_eligible: true
+  stem_eligible_source: "Student-confirmed DSO/OGS confirmation (2026-10-28), not agent-inferred."
+  needs_sponsorship: true
+  notes: "Needs employer visa sponsorship (H-1B) post-OPT — confirmed explicitly by student. This is a hard gate: no-sponsorship-history employers = Skip regardless of fit score."
+
+geography:
+  current_location: Boston, MA
+  open_to_remote: true
+  target_metros: "Boston, New York, San Francisco Bay Area, Seattle — agent-proposed as common US tech hubs with H-1B sponsorship history; student confirmed as-is, no additional cities or exclusions named."
+  constraints: none known (no partner/family location ties or visa-office proximity constraints stated)
+
+industry:
+  target_sectors: "AI/LLM tooling, developer tools, SaaS — agent-proposed from the two self-built AI-agent projects; student confirmed as-is."
+  company_size_range: no stated preference
+  hard_exclusions: none stated
+
+sponsorship:
+  requires_sponsorship: true
+  gate_or_nonissue: gate
+  note: "Confirmed explicitly by student: requires employer sponsorship. Companies with no H-1B sponsorship history must score Skip regardless of other fit signals."
